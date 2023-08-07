@@ -35,7 +35,7 @@ const Input = () => {
       onClick={handleButtonClick}    
       className="mx-auto mt-4 rounded-3xl w-30 bg-gradient-to-br from-[#2618A0] to-[#04BEFE] px-5 py-3 text-base font-medium text-white transition duration-200 hover:shadow-lg hover:shadow-[#4481EB]/50">
        Check
-      </button>
+       </button>
 
        
 

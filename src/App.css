@@ -18,16 +18,16 @@ body {
   margin: 0;
   text-align: center;
   font-family: "Inter", sans-serif;
-  color: white; /* Set text color to white for the entire body */
+  color: rgb(247, 238, 238); /* Set text color to white for the entire body */
 }
 
-.container {
+/* .container {
   padding: 20px 10px 0;
   margin: 0 auto;
   background-color: #0F172A;
   min-height: 100vh;
-  color: white; /* Set text color to white for the container */
-}
+  min-width: screen;
+} */
 
 
 .rectangleGreen {
@@ -85,7 +85,7 @@ body {
   position: absolute;
   top: -20px;
   left: 12.5%;
-  width: 73.99vw;
+  width: 74.99vw;
   height: 2px;
   background: var(--black);
 }
@@ -343,6 +343,13 @@ body {
   color: rgb(131, 144, 159);
 }
 
+.indexContainer{
+  background-color: #0F172A;
+  min-height: 100vh;
+}
 
-
+.indexcontainer h1 {
+  font-size: 3rem;
+  color: #34D399;
+}
 

@@ -5,16 +5,7 @@ import { FaTimes } from 'react-icons/fa';
 
 
 const Status = () => {
-    // async function serach(){
-    //     try{
-    //         const jsonData = await axios.get(oiud3hoid3eh)
-    //     }
-    //     catch(err){
-    //         conosle.log(error)
-    //     }
-    // }
-    // serach func
-    // const jsonData = await axios.get(url)
+   
 
     const jsonData = {
         "title": "REST Connector to support OAUTH and OKTA ",
@@ -173,7 +164,7 @@ const Status = () => {
 
   return (
 
-    <div class="container">
+    <div className='bg-slate-900 min-h-screen overflow-y-auto'>
         
         <h1 className={containerClassName1} >ORM</h1>
 
