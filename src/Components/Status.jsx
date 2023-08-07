@@ -122,7 +122,7 @@ const Status = () => {
     const securityTickets = jsonData.securityTasksDetails.securityTicketDetails ;
     const tcTickets = jsonData.technicalContentTasksDetails.tcTicketDetails;
 
-
+//function to change color of subticket based on activity status
   const getActivityColorClass = (activityStatus) => {
     if (activityStatus === 'GREEN') {
       return 'rectangleGreen'; 
@@ -135,6 +135,7 @@ const Status = () => {
     }
   };
 
+    //level-1 and level-1 container acitivity status.
     const overallORMStatus = jsonData.overallORMStatus;
     const overallSecurityStatus = jsonData.securityTasksDetails.overallSecurityStatus;
     const overallUITasksStatus = jsonData.uiTasksDetails.overallSecurityStatus;
@@ -186,6 +187,7 @@ const Status = () => {
                                     );
                                     })}
                                 </li>
+                                       
                                         {selectedSubticket && (
                                             <div className="backdrop" onClick={closePopup}>
                                                 <div className="popup" onClick={(e) => e.stopPropagation()}>
